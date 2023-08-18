@@ -1,0 +1,186 @@
+body{
+    margin: 0%;
+    font-family: "Space Grotesk";
+    font-size: 18px;
+}
+#main{
+    position: relative;
+    bottom: 0px;
+}
+#mainimg{
+    height: 70vw;
+    width: 400px;
+}
+#form{
+    height: 700px;
+
+    position: absolute;
+    top: 175px;
+    left: 770px;
+}
+#frontimg{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+#front{
+    height: 220px;
+}
+#cardlogo{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+#cimgnum{
+    color: white;
+    position: absolute;
+    top: 120px;
+    left: 25px;
+}
+#placeholdernum{
+    font-size: 22px;
+}
+#cimgname{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 25px;
+}
+#cimgMM{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 325px;
+}
+#cimgslash{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 342px;
+}
+#cimgYY{
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 350px;
+}
+#backimg{ 
+    height: 50px;
+    position: absolute;
+    top: 345px;
+    left: 250px;
+}
+#back{
+    height: 220px;
+}
+#cimgcvc{
+    font-family: "Space Grotesk";
+    color: white;
+    position: absolute;
+    top: 96px;
+    left: 320px;
+}
+#box1{
+    margin-bottom: 22px;
+}
+#box2{
+    margin-bottom: 22px;
+}
+#cname{
+    font-family: "Space Grotesk";
+    margin-top: 5px;
+    height: 20px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#cnum{
+    font-family: "Space Grotesk";
+    margin-top: 5px;
+    height: 25px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#exppos{
+    position: relative;
+    margin-bottom: 25px;
+}
+#cvcpos{
+    position: absolute;
+    top: 0px;
+    left: 140px;
+}
+#cMM{
+    font-family: "Space Grotesk";
+    margin-top: 5px;
+    height: 25px;
+    width: 40px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#cYY{
+    font-family: "Space Grotesk";
+    margin-top: 5px;
+    height: 25px;
+    width: 40px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#cCVC{
+    font-family: "Space Grotesk";
+    margin-top: 5px;
+    height: 25px;
+    width: 160px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#confirmbtn{
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    background-color: rgb(40, 1, 40);
+    color: white;
+    
+    margin-top: 0px;
+    height: 45px;
+    width: 318px;
+    border-radius: 8px;
+    padding: 6px;
+}
+#clabel{
+    font-family: "Space Grotesk";
+    font-size: 13px;
+}
+
+
+.complete{
+    text-align: center;
+    position: absolute;
+    top: 800px;
+    left: 800px;
+}
+#icon-complete{
+    height: 70px;
+}
+#thank{
+    font-family: "Space Grotesk";
+}
+#added{
+    font-family: "Space Grotesk";
+    color: grey;
+}
+#continuebtn{
+    font-family: "Space Grotesk";
+    font-size: 18px;
+    background-color: rgb(40, 1, 40);
+    color: white;
+    
+    margin-top: 20px;
+    height: 45px;
+    width: 318px;
+    border-radius: 8px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive card details form</title>
+
+    <link href="login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="main">
+        <img id="mainimg" src="images/bg-main-desktop.png"> 
+
+        <div id="frontimg"> <img id="front" src="images/bg-card-front.png">
+            <div id="cardlogo"><img src="images/card-logo.svg"></div>
+            <div id="cimgnum"  >  <p id="placeholdernum" >0000 0000 0000 0000 0000</p> </div>
+            <div id="cimgname" > JANE APPLESEED </div>
+            <div id="cimgMM"  >  00</div>
+            <div id="cimgslash">/</div>
+            <div id="cimgYY">00</div>
+        </div>
+
+        <div id="backimg">  <img id="back" src="images/bg-card-back.png">  
+            <div id="cimgcvc" > 000 </div>
+        </div>
+        
+    <!--Form-->
+
+     <div id="form"> 
+          <form class="form-input">
+
+             <div id="box1" >
+                <label for="cname" id="clabel" >CARDHOLDER NAME</label>
+                 <br>
+                <input type="text" name="cname" id="cname" placeholder="e.g Jane Appleseed" >
+                <div class="error"></div>
+            </div>
+
+            <div id="box2">
+                <label for="cnum" id="clabel" >CARD NUMBER</label>
+                <br>
+                <input name="cnum" id="cnum" placeholder="e.g. 1234 5678 9123 0000" >
+                <div class="error"></div>
+            </div>
+
+            <div id="exppos" >
+                 <label for="cMM" id="clabel" >EXP. DATE(MM/YY)</label>
+                 <br>
+                 <input name="cMM" id="cMM" placeholder="MM" >
+                 <input name="cYY" id="cYY" placeholder="YY" >
+                 <div class="error">
+            </div>
+            
+            <div id="cvcpos" >
+                <label for="cCVC" id="clabel" >CVC</label>
+                <br>
+                <input name="cCVC" id="cCVC" placeholder="e.g. 123" >
+                <div class="error"></div>
+           </div>
+      </div>
+
+
+
+        <div>
+            <button id="confirmbtn" >Confirm</button>
+        </div>
+
+    </form>   
+
+    <!--Form-->
+    </div>
+
+    <div class="complete" >
+        <img id="icon-complete" src="images/icon-complete.svg">
+        <p id="thank" >THANK YOU!</p>
+        <p id="added" >We've added your card details</p>
+        <button id="continuebtn" >Continue</button>
+    </div>
+
+    <script src="login.js"></script> 
+
+</body>
+</html>
